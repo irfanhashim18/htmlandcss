@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    /* the background image will repeat to fit the screen */
+    background-image: url("image_1.png");
+    /* if we want background image not to repeat we need to use
+    background repeat property */
+    background-repeat: no-repeat;
+    /* if we want to repeat on a specific access we  */
+     /* background-repeat: repeat-x;  */
+    /* background-repeat: repeat-y; */
+    background-size: 10% 25%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    /* the background image will repeat to fit the screen */
+    background-image: url("image_4.png");
+    /* if we want background image not to repeat we need to use
+    background repeat property */
+    background-repeat: no-repeat;
+    /* if we want to repeat on a specific access we  */
+     /* background-repeat: repeat-x;  */
+    /* background-repeat: repeat-y; */
+    background-size: 10% 10%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h1{
+    color:darkgoldenrod;
+
+
+}
+
+#h3id{
+    color:pink;
+}
+
+.class1{
+    color: red;
+}
