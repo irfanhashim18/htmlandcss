@@ -1,21 +1,47 @@
-<html>
-<head>
 
+<!DOCTYPE html>
+<html lang="en" class ="no-js">
+<head>
+    <link rel="stylesheet" type="text/css" href="htmlfilecss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
 
 </head>
 
 <header>
+    <div class="header" >
+        <div class="logo">Irfan Hashim Sheikho</div>
+        <div class="menu">
+            <ul class="menulist">
+                <li class="menus">Home</li>
+                <li class="menus">Contact</li>
+                <li id="helpmenu">Help</li>
+            </ul>
+        </div>
+    </div>
     <!--this is html links and anchor tags-->
     <a href = "htmlfile.html"; title ="click to Visit">Homepage</a>
-    <title>HTML & CSS course as Hobby  </title>
+    <title id="heading">HTML & CSS course as Hobby  </title>
 </header>
 <body>
     <h1 style = "color:aqua; background-color: blanchedalmond;"> this is my first html file</h1>
     <h2 style="color:blueviolet ; background-color:chartreuse"> i am happy that i am learning this </h2>
     <!--<h3> i will complete this course and move to JS</h3>-->
     <!-- this is used to place comments in the html code-->
-</body>
 
+
+
+
+
+
+</body>
+<div class="father">
+
+    <div class="child1">Alia</div>
+    <div class="child2">Iqra</div>
+    <div class="child3">Anti</div>
+    <div class="child4">Rifhat</div>
+</div>
 <p>
     my name is <b>irfan hashim</b>.
     i will be <b>Hobby Full Stack Developer</b>
@@ -27,14 +53,16 @@
     i will do programing 8 hrs each day
 </p>
 
-<p>
+<p id="paragraph">
     after html and css basic i will go to JS video of thapa sir
     if we have to write lower word like formula of water H2o
     i will be H<sub>2</sub>O ... we will use sun
     <!-- if we want that our link will open in next window we have to use target attribute in anchor-->
     <a href = "https://www.youtube.com/watch?v=5p8e2ZkbOFU&list=PLaIP2-JWj3oDcolN9rCUcz2fi8dFnTLAg&index=3&t=483s"
      target ="_blank"; style="text-decoration:none"; title="click to Visit Youtube link">Html and CSS video link</a>
-
+     after html and css basic i will go to JS video of thapa sir
+     if we have to write lower word like formula of water H2o
+     i will be H<sub>2</sub>O ... we will use sun
 </p>
 
 <p>
@@ -102,8 +130,8 @@ height="100" title ="this is image_1" alt="image_1">
 <!-- HTML FORM -->
 
 <h3> Contact Form </h3>
-<form>
-    <label>Username</label><br>
+<form class="BoxCss">
+    <label id="userlebal">Username</label><br>
     <input type="text" name= "Username"><br><br>
 
     <label>Password</label><br>

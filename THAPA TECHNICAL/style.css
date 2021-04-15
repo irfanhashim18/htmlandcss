@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 5;
 }
 
 .background1{
@@ -39,15 +39,67 @@
 
 
 h1{
-    color:darkgoldenrod;
+    /* color:darkgoldenrod; */
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-style: normal;
+    font-variant: uppercase;
 
 
 }
 /* this is for using id */
 #h3id{
-    color:pink;
+    color:black;
+    font-family: 'Zen Dots', cursive;
+    font-variant: small-caps;
+    font-size: 2em;
+    /* 1em = 16px */
+    font font-weight: 300;
+    /* bold size is from 100 to 900 */
+
 }
 
 .class1{
+    font-family: 'Zen Dots', cursive;
     color: red;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    word-wrap:initial;
+    direction: rtl;
+
+}
+
+#p1{
+    font-family: 'Zen Dots', cursive;
+    color:black
+
+}
+
+a:link{
+ color: red;
+}
+a:visited{
+    font-family: 'Zen Dots', cursive;
+    color: greenyellow
+}
+a:hover{
+    color: yellow;
+
+}
+a:active{
+    color:indigo
+}
+
+.bordercss{
+    width: 300px;
+    height: 100px;
+    border: 2px solid
+}
+ul{
+    font-family: 'Zen Dots', cursive;
+    list-style-type: square;
+
+}
+ol{
+    list-style-type: lower-roman;
+    
 }
